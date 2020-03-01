@@ -1,4 +1,5 @@
-//sumar los numeros pares del 2 al 100 e imprimir su valor
+
+//7.sumar los numeros pares del 2 al 100 e imprimir su valor
 #include<iostream>
 using namespace std;
 int main()
