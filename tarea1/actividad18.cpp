@@ -1,18 +1,25 @@
-//18.¿N es primo?
-#include<iostream>
+//18-.¿N es primo?
+#include <iostream>
 using namespace std;
-int main()
-{
- int n, x , s;
- cin>>n;
- x=n%2;
- s=n%3;
- if(n!=3&&n!=2){
- if(x==1&&s>0){
-cout<<"ES PRIMO"<<n<<endl;}
-else{ 
-cout<<"NO ES PRIMO"<<n<<endl;}}
-else {
-cout<<"ES PRIMO"<<n<<endl;}
- return 0;
+int main(){
+   int i,n, d=0;
+
+         cout<<"DIJITE EL NUMERO:"<<endl;
+         cin>>n;
+         for(i=1;i<(n+1);i++)
+         {
+             if(n%i==0)
+             {
+             d++;
+             }
+         }
+             if(d!=2)
+             {
+             cout<<"No es Primo"<<endl;;
+             }
+                 else
+                 {
+                 cout<<"Es Primo"<<endl;
+                 }
+return 0;
 }

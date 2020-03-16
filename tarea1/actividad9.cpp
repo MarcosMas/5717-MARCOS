@@ -3,19 +3,19 @@
 using namespace std;
 int main()
 {
-	 float  numero, suma = 0, media = 0;
-	 int i;
-        
-		 cout<<" Dijite el numero : "<<endl;
-         
-		 for(i=1;i<=50; i++){
+         float  numero, suma = 0, media = 0;
+         int i;
+
+                 cout<<" Dijite el numero : "<<endl;
+
+                 for(i=1;i<=50; i++){
              cin>>numero;
             suma = suma+numero;
-		 }
+                 }
              media = suma/50;
-            
-		 cout<<" El resultado es:  "<<media<<endl;
-     
-         
+
+                 cout<<" El resultado es:  "<<media<<endl;
+
+
 return 0;
 }
