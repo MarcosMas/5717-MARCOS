@@ -4,14 +4,13 @@ using namespace std;
 
 int main()
 {
-     int n, suma =0;
-     
-     cin>>n;
-         for(int i=1;i<=n;i++)
+    int N, i;
+    float suma=0;
+    cin>>N;
+          for(i=1;i<=N;i++)
          {
          suma=suma+i;
          }
-     cout<<suma<<endl;
-return 0;
+    cout<<suma<<endl;
+    return 0;
 }
-
