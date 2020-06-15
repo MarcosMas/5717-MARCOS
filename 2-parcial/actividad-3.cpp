@@ -4,9 +4,9 @@
 using namespace std;
 
 
-int valor1(long* a1,long* a2,long n,int a4,long k){
+int valor1(long* a1,long* a2,long n,int m,long k){
              int x=0;
-             for(int i=0;i<a4;i++)
+             for(int i=0;i<m;i++)
              {
                  for(long j=0;j<n;j++)
                  {
@@ -48,4 +48,3 @@ int main(){
                  }
      return 0;
 }
-
